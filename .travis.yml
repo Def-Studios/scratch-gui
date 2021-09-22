@@ -1,8 +1,3 @@
-jobs:
-  setup:
-    <<: *defaults
-    steps:
-      ...
-      - run: npm install
-      - run: cd node_modules/scratch-blocks && ln -s $(npm root)/google-closure-library ../closure-library --force && npm --production=false install && cd -
-      ...
+language: node_js
+node_js:
+  - 7
