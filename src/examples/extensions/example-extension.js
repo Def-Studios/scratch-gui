@@ -8,7 +8,7 @@ ExampleExtension.prototype.getInfo = function () {
     return {
         // Required: the machine-readable name of this extension.
         // Will be used as the extension's namespace. Must not contain a '.' character.
-        id: 'someBlocks',
+        id: 'a',
 
         // Optional: the human-readable name of this extension as string.
         // This and any other string to be displayed in the Scratch UI may either be
